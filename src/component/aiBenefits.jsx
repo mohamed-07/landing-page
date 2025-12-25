@@ -101,7 +101,7 @@ const benefits = [
 export default function AiBenefits() {
   return (
     <section 
-      className=" app-container py-16  bg-gradient-to-br from-dark to-gray-500 rounded-3xl text-white"
+      className="app-container py-16 bg-gradient-to-br from-slate-800 to-gray-500 rounded-3xl text-white"
       id="benefits"
       >
       <div className="text-center mb-12">
@@ -117,7 +117,7 @@ export default function AiBenefits() {
       </div> 
 
 
-      <div className='grid grid-col-1 md:grid-col-2 lg:grid-cols-3 gap-8'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {benefits.map((benefit, i) => (
             <div key={i} className="benefit-card">
               <div className={`benefit-card-icon ${colorClasses[benefit.color]}`}>
