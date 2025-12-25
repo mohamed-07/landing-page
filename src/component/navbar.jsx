@@ -1,11 +1,10 @@
-import React from 'react'
 import { useState } from 'react';
 
 const links = [
-    { name: "Home", href: "/home" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Contact", href: "/contact" }
+    { name: "Home", href: "#home" },
+    { name: "AI Type", href: "#types" },
+    { name: "Benefits", href: "#benefits" },
+    { name: "Contact", href: "#contact" }
 ];
 
 export default function NavBar() {
