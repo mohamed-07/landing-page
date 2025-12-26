@@ -20,9 +20,9 @@ export default function HeroSection() {
                 For Smarter Future
             </h1>
             <p className='text-lg text-gray-600 max-w-lg'>
-                discover how AI it transforming industries and improving lives
-                worldwide. Our cutting-adge solution harness the power of machine
-                learning to solve complex probleam.
+                Discover how AI is transforming industries and improving lives
+                worldwide. Our cutting-edge solution harness the power of machine
+                learning to solve complex problems.
             </p>
             <div className='flex flex-col sm:flex-row gap-4 pt-4'>
                 <a className='btn-primary' href="#">Explore AI Solutions</a>
